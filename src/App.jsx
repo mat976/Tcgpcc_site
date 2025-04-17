@@ -7,30 +7,30 @@ function App() {
       <header className="header">
         <img
           src={appLogo}
-          alt="TCGPCC Poket Logo"
+          alt="TCGP Compagnion Logo"
           className="app-logo"
         />
-        <h1>TCGPCC Poket</h1>
-        <p className="subtitle">La solution moderne pour gérer, suivre et compléter ta collection Pokémon TCG.</p>
+        <h1>TCGP Compagnion</h1>
+        <p className="subtitle">Votre assistant moderne pour la gestion et la progression de votre collection Pokémon TCG.</p>
       </header>
       <main>
         <section className="advantages">
-          <h2>Les points forts de TCGPCC Poket</h2>
+          <h2>Pourquoi choisir TCGP Compagnion&nbsp;?</h2>
           <div className="advantages-list">
             <div className="advantage">
               <span className="advantage-icon">🤖</span>
-              <h3>Scan intelligent par IA</h3>
-              <p>Ajoute tes cartes en un clin d'œil grâce à la reconnaissance automatique et précise de l’application.</p>
+              <h3>Scan IA instantané</h3>
+              <p>Ajoutez vos cartes en un flash grâce à la reconnaissance visuelle intelligente.</p>
             </div>
             <div className="advantage">
-              <span className="advantage-icon">📊</span>
-              <h3>Suivi de complétion</h3>
-              <p>Visualise instantanément le pourcentage de ta collection complétée et identifie les cartes manquantes.</p>
+              <span className="advantage-icon">📈</span>
+              <h3>Progression visuelle</h3>
+              <p>Suivez votre % de complétion et repérez en un coup d’œil les cartes manquantes.</p>
             </div>
             <div className="advantage">
-              <span className="advantage-icon">👌</span>
-              <h3>Expérience ultra-intuitive</h3>
-              <p>Profite d’une interface élégante, rapide et pensée pour tous les collectionneurs, débutants ou experts.</p>
+              <span className="advantage-icon">🎨</span>
+              <h3>Expérience colorée & intuitive</h3>
+              <p>Une interface dynamique et agréable, pensée pour rendre la gestion de collection fun et efficace.</p>
             </div>
           </div>
         </section>
@@ -39,7 +39,7 @@ function App() {
         </a>
       </main>
       <footer className="footer">
-        <p> 2025 TCGPCC Poket. Site de présentation réalisé avec React & Vite.<br />Une création <strong>Matisdev</strong>.</p>
+        <p> 2025 TCGP Compagnion. Site de présentation réalisé avec React & Vite.<br />Une création <strong>Matisdev</strong>.</p>
       </footer>
     </div>
   );
